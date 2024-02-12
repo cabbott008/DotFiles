@@ -232,11 +232,11 @@ def init_widgets_list():
     widgets_list = [
         widget.GroupBox(
             font="FontAwesome",
-            fontsize=35,
+            fontsize=40,
             margin_y=3,
-            margin_x=0,
+            margin_x=2,
             padding_y=3,
-            padding_x=5,
+            padding_x=2,
             borderwidth=8,
             disable_drag=True,
             active=colors[3],
