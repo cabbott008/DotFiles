@@ -179,8 +179,8 @@ for i in groups:
 
 def init_layout_theme():
 
-    return {"margin": 16,
-            "border_width": 7,
+    return {"margin": 15,
+            "border_width": 8,
             "change_ratio": 0.02,
             "border_focus": "#fba922",
             "border_normal": "#4c566a"
