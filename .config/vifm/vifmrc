@@ -131,6 +131,7 @@ command! reload :write | restart
 command! mkd :mkdir %a
 command! mkf :touch %a
 command! ripdrag ripdrag -a -x %f
+command! print :!lpr %f
 
 command! fzff : set noquickview
     \| let $FZF_PICK = system("fd --hidden -i -H | fzf --height 10 2>/dev/tty")
@@ -205,7 +206,7 @@ fileviewer *.pdf
 
     fileviewer *.mp3
         \ mp3info
-    filextype *.mp3,*.m4a
+    filextype *.mp3,*.m4a,*.wav
         \ mpv %f
     fileviewer <audio/*>
         \ vifmimg audio %px %py %pw %ph %c

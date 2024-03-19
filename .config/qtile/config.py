@@ -277,19 +277,23 @@ def init_widgets_list():
             foreground=colors[5],
             background=colors[1],
             ),
+        widget.Sep(
+            linewidth=5,
+            padding=12,
+            foreground=colors[3],
+            background=colors[1]
+            ),
         widget.Clock(
             foreground=colors[5],
             background=colors[1],
             fontsize=46,
-            format="%H:%M"
+            format="%H:%M:%S"
             ),
-        widget.TextBox(
-            font="FontAwesome",
-            text="   ",
+        widget.Sep(
+            linewidth=5,
+            padding=12,
             foreground=colors[3],
-            background=colors[1],
-            padding=3,
-            fontsize=32
+            background=colors[1]
             ),
         widget.Clock(
             foreground=colors[5],
@@ -297,13 +301,11 @@ def init_widgets_list():
             fontsize=46,
             format="%Y-%m-%d"
             ),
-        widget.TextBox(
-            font="FontAwesome",
-            text="   ",
+        widget.Sep(
+            linewidth=5,
+            padding=12,
             foreground=colors[3],
-            background=colors[1],
-            padding=3,
-            fontsize=32
+            background=colors[1]
             ),
         widget.Battery(
             font="Noto Sans",
