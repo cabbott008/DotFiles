@@ -196,7 +196,7 @@ fileviewer *.pdf
 
     filextype *.xcf
         \ gimp %f
-    filetype *.png,*.jpg,*jpeg,*.bmp,*.gif,*.xpm
+    filetype *.png,*.jpg,*jpeg,*.bmp,*.gif,*.xpm,*.webp
         \ {View in feh}
         \ feh %d --start-at %d/%c 2>/dev/null
     fileviewer <image/*>
@@ -236,7 +236,7 @@ set classify+=' ::../::, ::*.sh::, ::*.[hc]pp::, ::*.[hc]::, ::/^
 " archives
 set classify+='🗃️ ::*.7z,,*.ace,,*.arj,,*.bz2,,*.cpio,,*.deb,,*.dz,,*.gz,,*.jar,,*.lzh,,*.lzma,,*.rar,,*.rpm,,*.rz,,*.tar,,*.taz,,*.tb2,,*.tbz,,*.tbz2,,*.tgz,,*.tlz,,*.trz,,*.txz,,*.tz,,*.tz2,,*.xz,,*.z,,*.zip,,*.zoo::'
 " images
-set classify+='🎨::*.bmp,,*.gif,,*.jpeg,,*.jpg,,*.ico,,*.png,,*.ppm,,*.svg,,*.svgz,,*.tga,,*.tif,,*.tiff,,*.xbm,,*.xcf,,*.xpm,,*.xspf,,*.xwd::'
+set classify+='🎨::*.bmp,,*.gif,,*.jpeg,,*.jpg,,*.ico,,*.png,,*.ppm,,*.svg,,*.svgz,,*.tga,,*.tif,,*.tiff,,*.webp,,*.xbm,,*.xcf,,*.xpm,,*.xspf,,*.xwd::'
 " audio
 set classify+='🎧::*.aac,,*.anx,,*.asf,,*.au,,*.axa,,*.flac,,*.m2a,,*.m4a,,*.mid,,*.midi,,*.mp3,,*.mpc,,*.oga,,*.ogg,,*.ogx,,*.ra,,*.ram,,*.rm,,*.spx,,*.wav,,*.wma,,*.ac3::'
 " media
